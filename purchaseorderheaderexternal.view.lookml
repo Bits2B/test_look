@@ -39,15 +39,15 @@
     sql: ${TABLE}."PurchaseOrderId"
 
   - measure: netamount
-    type: number
+    type: sum
     sql: ${TABLE}."NetAmount"
     
   - measure: taxamount
-    type: number
+    type: sum
     sql: ${TABLE}."TaxAmount"
     
   - measure: grossamount
-    type: number
+    type: sum
     sql: ${TABLE}."GrossAmount"
 
   - measure: count
