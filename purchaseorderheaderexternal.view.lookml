@@ -17,10 +17,6 @@
   - dimension: currency
     sql: ${TABLE}."Currency"
 
-  - dimension: grossamount
-    type: number
-    sql: ${TABLE}."GrossAmount"
-
   - dimension_group: historychangedat
     type: time
     timeframes: [date, week, month]
@@ -36,19 +32,23 @@
   - dimension: historycreatedby
     sql: ${TABLE}."History.CREATEDBY"
 
-  - dimension: netamount
-    type: number
-    sql: ${TABLE}."NetAmount"
-
   - dimension: partnerid
     sql: ${TABLE}."PartnerId"
 
   - dimension: purchaseorderid
     sql: ${TABLE}."PurchaseOrderId"
 
-  - dimension: taxamount
+  - measure: netamount
+    type: number
+    sql: ${TABLE}."NetAmount"
+    
+  - measure: taxamount
     type: number
     sql: ${TABLE}."TaxAmount"
+    
+  - measure: grossamount
+    type: number
+    sql: ${TABLE}."GrossAmount"
 
   - measure: count
     type: count
