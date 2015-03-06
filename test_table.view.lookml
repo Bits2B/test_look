@@ -70,6 +70,10 @@
     type: number
     sql: ${TABLE}."year"
 
+  - measure: atmospheric_pressure_mbar_MAX
+    type: max
+    sql: ${TABLE}."atmospheric pressure (mBar)"
+    
   - measure: count
     type: count
     drill_fields: []
