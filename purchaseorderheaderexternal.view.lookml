@@ -1,5 +1,5 @@
 - view: purchaseorderheaderexternal
-  sql_table_name: sap_hana_demo."sap.hana.democontent.epm.data::purchaseorderheaderexternal"
+  sql_table_name: sap_hana_demo."sap.hana.democontent.epm.data::purchaseOrderHeaderExternal"
   fields:
 
   - dimension: companyname
