@@ -72,7 +72,7 @@
 
   - measure: atmospheric_pressure_mbar_MAX
     type: sum
-    sql: ${atmospheric_pressure_mbar}
+    sql: to_number(${TABLE}."atmospheric pressure (mBar)")
     
   - measure: count
     type: count
