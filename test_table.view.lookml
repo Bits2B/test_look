@@ -1,5 +1,5 @@
 - view: test_table
-  sql_table_name: jsterba.test_table
+  sql_table_name: jsterba."test_table"
   fields:
 
   - dimension: atmospheric_pressure_mbar
