@@ -12,7 +12,7 @@
 
   - dimension: calibrated_solar_flux_kwm2
     type: number
-    sql: ${TABLE}."calibrated solar flux (kw/m2)"
+    sql: ${TABLE}."calibrated solar flux (Kw/m2)"
 
   - dimension: day_of_the_year
     type: yesno
@@ -20,7 +20,7 @@
 
   - dimension: index
     type: yesno
-    sql: ${TABLE}.index
+    sql: ${TABLE}."index"
 
   - dimension: not_used
     type: number
@@ -36,23 +36,23 @@
 
   - dimension: surface_temperature_c
     type: number
-    sql: ${TABLE}."surface temperature (c)"
+    sql: ${TABLE}."surface temperature (C)"
 
   - dimension: tdew_c
     type: number
-    sql: ${TABLE}."tdew (c)"
+    sql: ${TABLE}."Tdew (C)"
 
   - dimension: time
     type: number
-    sql: ${TABLE}.time
+    sql: ${TABLE}."time"
 
   - dimension: uncalibrated_solar_flux_kwm2
     type: number
-    sql: ${TABLE}."uncalibrated solar flux (kw/m2)"
+    sql: ${TABLE}."uncalibrated solar flux (Kw/m2)"
 
   - dimension: wind_chill_c
     type: number
-    sql: ${TABLE}."wind_chill (c)"
+    sql: ${TABLE}."wind_chill (C)"
 
   - dimension: wind_direction_degrees
     type: number
@@ -68,7 +68,7 @@
 
   - dimension: year
     type: number
-    sql: ${TABLE}.year
+    sql: ${TABLE}."year"
 
   - measure: count
     type: count
