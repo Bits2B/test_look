@@ -71,8 +71,7 @@
     sql: ${TABLE}."year"
 
   - measure: atmospheric_pressure_mbar_MAX
-    type: max
-    decimals: 2
+    type: min
     sql: ${atmospheric_pressure_mbar}
     
   - measure: count
