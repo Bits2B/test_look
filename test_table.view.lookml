@@ -4,7 +4,7 @@
 
   - dimension: atmospheric_pressure_mbar
     type: number
-    sql: ${TABLE}."atmospheric pressure (mbar)"
+    sql: ${TABLE}."atmospheric pressure (mBar)"
 
   - dimension: battery_v
     type: number
