@@ -72,6 +72,7 @@
 
   - measure: atmospheric_pressure_mbar_MAX
     type: max
+    decimals: 2
     sql: ${TABLE}."atmospheric pressure (mBar)"
     
   - measure: count
