@@ -6,3 +6,4 @@
 - explore: products
 - explore: test_table
 - explore: addresses
+- explore: purchaseorderheaderexternal
