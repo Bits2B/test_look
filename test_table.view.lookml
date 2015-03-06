@@ -15,7 +15,7 @@
     sql: ${TABLE}."calibrated solar flux (Kw/m2)"
 
   - dimension: day_of_the_year
-    type: yesno
+    type: number
     sql: ${TABLE}."day of the year"
 
   - dimension: index
