@@ -1,0 +1,76 @@
+- view: test_table
+  sql_table_name: jsterba.test_table
+  fields:
+
+  - dimension: atmospheric_pressure_mbar
+    type: number
+    sql: ${TABLE}."atmospheric pressure (mbar)"
+
+  - dimension: battery_v
+    type: number
+    sql: ${TABLE}."battery (v)"
+
+  - dimension: calibrated_solar_flux_kwm2
+    type: number
+    sql: ${TABLE}."calibrated solar flux (kw/m2)"
+
+  - dimension: day_of_the_year
+    type: yesno
+    sql: ${TABLE}."day of the year"
+
+  - dimension: index
+    type: yesno
+    sql: ${TABLE}.index
+
+  - dimension: not_used
+    type: number
+    sql: ${TABLE}."not used"
+
+  - dimension: rainfall_mm
+    type: number
+    sql: ${TABLE}."rainfall (mm)"
+
+  - dimension: relative_humidity_
+    type: number
+    sql: ${TABLE}."relative humidity (%)"
+
+  - dimension: surface_temperature_c
+    type: number
+    sql: ${TABLE}."surface temperature (c)"
+
+  - dimension: tdew_c
+    type: number
+    sql: ${TABLE}."tdew (c)"
+
+  - dimension: time
+    type: number
+    sql: ${TABLE}.time
+
+  - dimension: uncalibrated_solar_flux_kwm2
+    type: number
+    sql: ${TABLE}."uncalibrated solar flux (kw/m2)"
+
+  - dimension: wind_chill_c
+    type: number
+    sql: ${TABLE}."wind_chill (c)"
+
+  - dimension: wind_direction_degrees
+    type: number
+    sql: ${TABLE}."wind direction (degrees)"
+
+  - dimension: wind_max_ms
+    type: number
+    sql: ${TABLE}."wind_max (m/s)"
+
+  - dimension: wind_speed_ms
+    type: number
+    sql: ${TABLE}."wind speed (m/s)"
+
+  - dimension: year
+    type: number
+    sql: ${TABLE}.year
+
+  - measure: count
+    type: count
+    drill_fields: []
+
