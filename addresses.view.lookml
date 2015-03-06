@@ -1,4 +1,4 @@
-- view: saphanademocontentepmdataepmmdaddresses
+- view: addresses
   sql_table_name: sap_hana_demo."sap.hana.democontent.epm.data::epm.md.addresses"
   fields:
 
